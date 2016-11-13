@@ -31,7 +31,7 @@ It enables the HTTP connector. If it is not clicked the tomcat use SSL connector
 It is used to configure additional attributes for connector. There are more attributes are available.  
 **Ex**
 * **Timeout Period** - The number of milliseconds this Connector will wait, after accepting a connection, for the request URI line to be presented.
-* **maxConnections** - The maximum connections that server will accept and process any given time.
+* **maxConnections** - The maximum connections that server will accept and process any given time.  
 ### HTTP Port:
 If tomcat uses HTTP connections then tomcat listens the incoming HTTP request on this port.
 ### SSL Port:
