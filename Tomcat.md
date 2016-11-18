@@ -151,12 +151,22 @@ This will controll at what frequency the post startup script will be executed.
 ### Max. Number of retries for executing post startup command:
 The post startup script will be retried for max number of retries, executing the post startup script as per polling frequency.
 
-# Dependencies
+## Dependencies
 
-## Java
-Tomcat 7 and 8 can run in Java 7 or later JRE.
-Tomcat 6 can run in Java 5 or later JRE.
+### Java
+Tomcat 7 and 8 can run in Java 7 or later JRE.  
+Tomcat 6 can run in Java 5 or later JRE.  
+For more details [click here][]
 
-## logstash
+### Logstash
 
-## security group
+### Security Group
+The port used in Tomcat should be allowed in firewall.  
+Add  the follwing rules in security Group:
+<HTTP Port> <HTTP Port> tcp 0.0.0.0/0
+<SSL Port> <SSL Port> tcp 0.0.0.0/0
+
+### OS
+Tomcat can run in CentOS.
+
+[click here]:http://tomcat.apache.org/tomcat-8.0-doc/setup.html
