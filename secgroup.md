@@ -3,8 +3,8 @@
 ### Description:
 This description defines about what are all security group used.
 
-### Inbund rules:
-By default all incoming requests are blocked in firewall. To allow incoming request for the particular port from outside the network, add the inbund rules.
+### Inbound rules:
+By default all incoming requests are blocked in firewall. To allow incoming request for the particular port from outside the network, add the inbound rules.
 
 **Ex.**
 ```

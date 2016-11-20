@@ -23,21 +23,21 @@ Mention the maximum number of files to be opened. It should be multiples of 1024
 ### Login Shell:
 Mention the which is to be used in that user.
 if you want to use login-shell mention /bin/login
-if you want to use non-loggin shell mention /bin/bash
-More details about login and non-loggin shell [click here][]
+if you want to use non-login shell mention /bin/bash
+More details about login and non-login shell [click here][]
 
 ## Options
 
 ### System Account:
-It mentioms the user is comes in sysytem account or not.
+It mentions the user is comes in system account or not.
 
 ### Enable sudo access
-If you click the checkbox, the user gets the root privillages.
+If you click the checkbox, the user gets the root privileges.
 
 ## Access
 
 ### Authorized keys:
-Here we can define your authorized keys like ssh key.
+Here we can define your authorized_keys like ssh key.
 
 ## Dependencies
 

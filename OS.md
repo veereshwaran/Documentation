@@ -35,4 +35,4 @@ It defines, the specified timezone used in System.
 ## Dependencies
 
 ### compute:
-OS should be installedin VM's.
+OS should be installed in VM's.

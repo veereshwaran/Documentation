@@ -162,7 +162,7 @@ For more details [click here][]
 
 ### Security Group
 The port used in Tomcat should be allowed in firewall.  
-Add  the follwing rules in security Group:
+Add  the following rules in security Group:
 <HTTP Port> <HTTP Port> tcp 0.0.0.0/0
 <SSL Port> <SSL Port> tcp 0.0.0.0/0
 
