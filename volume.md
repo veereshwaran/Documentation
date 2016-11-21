@@ -10,6 +10,7 @@ It defines the size of the Volume.
 ```
 
 ### Device:
+It defines the which device is used for this volume. If you leave blank, it will automatically use the device map from  the related storage component. 
 
 ## Filesystem
 
