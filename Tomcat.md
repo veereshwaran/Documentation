@@ -80,7 +80,7 @@ When we click this option it will shows advanced security options for tomcat.
 
 * Enable GET HTTP method: If it not chosen, tomcat do not accept the get request.
 
-## Executor:
+## Executor
 
 ### Name:
 This name represent the thread Pool in tomcat.

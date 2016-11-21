@@ -63,7 +63,7 @@ It defines, the command is executed before Configuring the artifact package.
 It defines, the command is executed during migrating stage.
 
 ### Restart:
-It defines, the command is executed on Restart.
+It defines, the command is executed on Restart.  
 **Ex.**
 ```
 If you want deploy the web application, copy the package into the webapp directory on VM restart.
