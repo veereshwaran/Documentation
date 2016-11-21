@@ -170,3 +170,41 @@ Add  the following rules in security Group:
 Tomcat can run in CentOS.
 
 [click here]:http://tomcat.apache.org/tomcat-8.0-doc/setup.html
+
+# Attachment
+Attachment, some external files are used by tomcat either this file may be script, configuration or certificate.
+
+## Include Content
+
+### Attachment Content:
+It is used to directly specify the file content. If you use remote file leave it blank. all fill the 'Remote File' fields.
+
+## Remote File
+
+### Source URL:
+Specify the URL where the file is hosted.
+
+### Username:
+If the file needs to the username for access then specify the username here.
+
+### Password:
+If the file needs to the password for access then specify the password here.
+
+### Custom Headers:
+If you need some headers when accessing remote file, specify the header.
+
+### Checksum:
+If you want to verify downloaded file, specify the checksum.
+
+## Destination
+
+### Destination Path:
+It defines the path where the attachment will be saved.
+
+## Run
+
+### Execute Command:
+If you want to perform some performance on this attachement, give the command it is optional.
+
+### Run Event:
+Select the event, during on this event content will be downloaded and executed.
